@@ -2,7 +2,7 @@ import SimpleSchema from 'simpl-schema';
 
 Schema = {};
 
-Fundraisers.schema = new SimpleSchema( {
+TestCollection.schema = new SimpleSchema( {
   fname: {
     type: String,
     label: "First Name",

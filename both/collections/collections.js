@@ -1,1 +1,1 @@
-Fundraisers = new Mongo.Collection('fundraisers');
+TestCollection = new Mongo.Collection('test-collection');

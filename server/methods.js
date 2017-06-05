@@ -1,8 +1,8 @@
 Meteor.methods({
-  insertFundraisersWithTrip: function (doc) {
-    console.log("Started method insertFundraisersWithTrip with doc:");
+  insertDocAndUseCheck: function (doc) {
+    console.log("Started method insertDocAndUseCheck with doc:");
     console.log(doc);
-    check( doc, Fundraisers.schema );
-    Fundraisers.insert(doc);
+    check( doc, TestCollection.schema );
+    TestCollection.insert(doc);
   },
 });
